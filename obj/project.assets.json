@@ -2662,7 +2662,7 @@
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.2",
     "restore": {
       "projectUniqueName": "C:\\Users\\YUNUS EMRE\\Desktop\\AllProject\\Asp.TotpKit\\Asp.TotpKit\\Asp.TotpKit.csproj",
       "projectName": "Asp.TotpKit",

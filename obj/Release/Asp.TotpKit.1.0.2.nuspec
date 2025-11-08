@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Asp.TotpKit</id>
+    <version>1.0.2</version>
+    <authors>YunusDev</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <projectUrl>https://www.nuget.org/packages/Asp.TotpKit</projectUrl>
+    <description>Asp.TotpKit is a simple, secure, plug-and-play Time-based One-Time Password (TOTP) authentication library for ASP.NET.
+      It provides Google Authenticator–compatible 2FA support with QR Code generation, validation, and cookie-based session handling.</description>
+    <tags>totp 2fa aspnet authenticator security qrcode identity</tags>
+    <repository type="git" url="https://github.com/01YunusKaratas/Asp.TotpKit" commit="3a9f47833baba4760c648389a87ed68d2fe34cef" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.AspNetCore.Identity" version="2.3.1" exclude="Build,Analyzers" />
+        <dependency id="QRCoder" version="1.7.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net9.0">
+        <dependency id="Microsoft.AspNetCore.Identity" version="2.3.1" exclude="Build,Analyzers" />
+        <dependency id="QRCoder" version="1.7.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\YUNUS EMRE\Desktop\AllProject\Asp.TotpKit\Asp.TotpKit\bin\Release\net8.0\Asp.TotpKit.dll" target="lib\net8.0\Asp.TotpKit.dll" />
+    <file src="C:\Users\YUNUS EMRE\Desktop\AllProject\Asp.TotpKit\Asp.TotpKit\bin\Release\net9.0\Asp.TotpKit.dll" target="lib\net9.0\Asp.TotpKit.dll" />
+    <file src="C:\Users\YUNUS EMRE\Desktop\AllProject\Asp.TotpKit\Asp.TotpKit\README.md" target="README.md" />
+  </files>
+</package>

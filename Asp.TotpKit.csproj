@@ -7,7 +7,7 @@
     
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>Asp.TotpKit</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.2</Version>
     <Authors>YunusDev</Authors>
     <Company>YunusDev</Company>
     <Description>
@@ -15,7 +15,7 @@
       It provides Google Authenticator–compatible 2FA support with QR Code generation, validation, and cookie-based session handling.
     </Description>
     <PackageTags>totp 2fa aspnet authenticator security qrcode identity</PackageTags>
-    <PackageProjectUrl>https://www.nuget.org/packages/Asp.TotpKitt</PackageProjectUrl>
+    <PackageProjectUrl>https://www.nuget.org/packages/Asp.TotpKit</PackageProjectUrl>
     <RepositoryUrl>https://github.com/01YunusKaratas/Asp.TotpKit</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

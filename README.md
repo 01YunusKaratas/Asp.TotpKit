@@ -5,10 +5,10 @@
 
 ---
 
-## 🧭 Purpose
+## Purpose
 I was tired of rebuilding the same **TOTP (Time-Based One-Time Password)** systems over and over — QR code generation, secret key encoding, validation, time window handling, you name it.
 
-**Yunus.TotpKit** solves that problem.
+**Asp.TotpKit** solves that problem.
 
 It provides a clean, extensible, and Identity-ready 2FA layer compatible with Google Authenticator and similar apps, without extra dependencies or complex setup.
 
@@ -18,14 +18,14 @@ It provides a clean, extensible, and Identity-ready 2FA layer compatible with Go
 ---
 
 ## ⚙️ Features
-- 🔐 Time-based one-time password generation (RFC 6238)
-- 📱 QR Code creation for Google Authenticator setup
-- 🧾 30-second rotating codes
-- ✅ Code verification with tolerance window
-- 🍪 Optional cookie-based temporary validation support
-- 💡 Works with `AppUser` (Identity) or any custom model
-- 🧩 Simple DI registration — plug & play
-- 🧱 No external dependencies beyond `QRCoder` & `.NET`
+- Time-based one-time password generation (RFC 6238)
+- QR Code creation for Google Authenticator setup
+- 30-second rotating codes
+- Code verification with tolerance window
+- Optional cookie-based temporary validation support
+- Works with `AppUser` (Identity) or any custom model
+- Simple DI registration — plug & play
+- No external dependencies beyond `QRCoder` & `.NET`
 
 ---
 
@@ -36,8 +36,9 @@ It provides a clean, extensible, and Identity-ready 2FA layer compatible with Go
 dotnet add package Asp.TotpKit
 ```
 ## Documentation
-- 🇹🇷 [Türkçe PDF Dokümanı](./Docs/Asp.TotpKit-Tr.pdf)
-- 🇬🇧 [English PDF Documentation](./Docs/Asp.TotpKit-En.pdf) 
+- 🇹🇷 [Türkçe PDF Dokümanı](https://github.com/01YunusKaratas/Asp.TotpKit/blob/main/Docs/Asp.TotpKit-Tr.pdf)
+- 🇬🇧 [English PDF Documentation](https://github.com/01YunusKaratas/Asp.TotpKit/blob/main/Docs/Asp.TotpKit-En.pdf) 
+
 ## Design Philosophy
 Yunus.TotpKit was built with the same philosophy as Yunus.JwtKit:
 a clean, decoupled design that favors simplicity and clarity.

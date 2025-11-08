@@ -16,12 +16,12 @@ using System.Reflection;
       Asp.TotpKit is a simple, secure, plug-and-play Time-based One-Time Password (TOTP) authentication library for ASP.NET.
       It provides Google Authenticator–compatible 2FA support with QR Code generation, validation, and cookie-based session handling.
     ")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca5607fa043c2dc74693ed267b933fa21581a067")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.2.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.2+3a9f47833baba4760c648389a87ed68d2fe34cef")]
 [assembly: System.Reflection.AssemblyProductAttribute("Asp.TotpKit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Asp.TotpKit")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/YunusDev/Asp.TotpKit")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.2.0")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/01YunusKaratas/Asp.TotpKit")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
 
