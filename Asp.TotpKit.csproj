@@ -1,14 +1,39 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Asp.TotpKit</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>YunusDev</Authors>
+    <Company>YunusDev</Company>
+    <Description>
+      Asp.TotpKit is a simple, secure, plug-and-play Time-based One-Time Password (TOTP) authentication library for ASP.NET.
+      It provides Google Authenticator–compatible 2FA support with QR Code generation, validation, and cookie-based session handling.
+    </Description>
+    <PackageTags>totp 2fa aspnet authenticator security qrcode identity</PackageTags>
+    <PackageProjectUrl>https://github.com/YunusDev/Asp.TotpKit</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/YunusDev/Asp.TotpKit</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageOutputPath>bin\Release</PackageOutputPath>
+
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.3.1" />
     <PackageReference Include="QRCoder" Version="1.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>

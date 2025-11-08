@@ -1,0 +1,13 @@
+C:\Users\YUNUS EMRE\Desktop\AllProject\Asp.TotpKit\Asp.TotpKit\bin\Release\net8.0\Asp.TotpKit.deps.json
+C:\Users\YUNUS EMRE\Desktop\AllProject\Asp.TotpKit\Asp.TotpKit\bin\Release\net8.0\Asp.TotpKit.dll
+C:\Users\YUNUS EMRE\Desktop\AllProject\Asp.TotpKit\Asp.TotpKit\bin\Release\net8.0\Asp.TotpKit.pdb
+C:\Users\YUNUS EMRE\Desktop\AllProject\Asp.TotpKit\Asp.TotpKit\obj\Release\net8.0\Asp.TotpKit.csproj.AssemblyReference.cache
+C:\Users\YUNUS EMRE\Desktop\AllProject\Asp.TotpKit\Asp.TotpKit\obj\Release\net8.0\Asp.TotpKit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YUNUS EMRE\Desktop\AllProject\Asp.TotpKit\Asp.TotpKit\obj\Release\net8.0\Asp.TotpKit.AssemblyInfoInputs.cache
+C:\Users\YUNUS EMRE\Desktop\AllProject\Asp.TotpKit\Asp.TotpKit\obj\Release\net8.0\Asp.TotpKit.AssemblyInfo.cs
+C:\Users\YUNUS EMRE\Desktop\AllProject\Asp.TotpKit\Asp.TotpKit\obj\Release\net8.0\Asp.TotpKit.csproj.CoreCompileInputs.cache
+C:\Users\YUNUS EMRE\Desktop\AllProject\Asp.TotpKit\Asp.TotpKit\obj\Release\net8.0\Asp.TotpKit.sourcelink.json
+C:\Users\YUNUS EMRE\Desktop\AllProject\Asp.TotpKit\Asp.TotpKit\obj\Release\net8.0\Asp.TotpKit.dll
+C:\Users\YUNUS EMRE\Desktop\AllProject\Asp.TotpKit\Asp.TotpKit\obj\Release\net8.0\refint\Asp.TotpKit.dll
+C:\Users\YUNUS EMRE\Desktop\AllProject\Asp.TotpKit\Asp.TotpKit\obj\Release\net8.0\Asp.TotpKit.pdb
+C:\Users\YUNUS EMRE\Desktop\AllProject\Asp.TotpKit\Asp.TotpKit\obj\Release\net8.0\ref\Asp.TotpKit.dll
