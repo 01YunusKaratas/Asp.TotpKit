@@ -35,49 +35,9 @@ It provides a clean, extensible, and Identity-ready 2FA layer compatible with Go
 ```bash
 dotnet add package Asp.TotpKit
 ```
-## Add to Program.cs
-```
-builder.Services.AddTotpKit<AppUser>(options =>
-{
-    options.AppName = "MyProject";
-    options.Issuer = "MyProject.Auth";
-    options.GetUserEmail = u => u.Email!;
-    options.GetUserId = u => u.Id!;
-});
-```
-## Basic Usage
-
-### Generate Setup (for first-time 2FA activation)
-```
-var setup = await _totpService.GenerateSetupAsync(user);
-
-// setup.QrCodeUri → Google Authenticator compatible URI
-// setup.SecretKey  → Manual entry for users
-```
-### Verify Code (after scanning QR)
-```
-var result = await _totpService.VerifyCodeAsync(user, code);
-
-if (result.Success)
-    user.IsToptEnabled = true;
-```
-### Validate Code (during login)
-```
-var isValid = await _totpService.ValidateLoginCodeAsync(user, code);
-
-if (!isValid)
-    return Unauthorized("Invalid TOTP code");
-```
-### Disable 2FA
-```
-user.IsToptEnabled = false;
-```
-
-## 🧱 Cookie Support
-```
-_totpService.SetTotpTempCookie(Response, user.Id);
-and others codes...
-```
+## Documentation
+- 🇹🇷 [Türkçe PDF Dokümanı](./Docs/Asp.TotpKit-Tr.pdf)
+- 🇬🇧 [English PDF Documentation](./Docs/Asp.TotpKit-En.pdf) 
 ## Design Philosophy
 Yunus.TotpKit was built with the same philosophy as Yunus.JwtKit:
 a clean, decoupled design that favors simplicity and clarity.
