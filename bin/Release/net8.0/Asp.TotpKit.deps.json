@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "Asp.TotpKit/1.0.2": {
+      "Asp.TotpKit/1.0.3": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity": "2.3.1",
           "QRCoder": "1.7.0"
@@ -475,7 +475,7 @@
     }
   },
   "libraries": {
-    "Asp.TotpKit/1.0.2": {
+    "Asp.TotpKit/1.0.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

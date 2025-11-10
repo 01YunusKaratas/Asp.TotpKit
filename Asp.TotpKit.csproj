@@ -4,27 +4,25 @@
     <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    
+
+    <!-- NuGet Metadata -->
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>Asp.TotpKit</PackageId>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <Authors>YunusDev</Authors>
     <Company>YunusDev</Company>
-    <Description>
-      Asp.TotpKit is a simple, secure, plug-and-play Time-based One-Time Password (TOTP) authentication library for ASP.NET.
-      It provides Google Authenticator–compatible 2FA support with QR Code generation, validation, and cookie-based session handling.
-    </Description>
-    <PackageTags>totp 2fa aspnet authenticator security qrcode identity</PackageTags>
+    <Description>Simple, secure, plug-and-play Time-based One-Time Password (TOTP) authentication library for ASP.NET Core. Provides Google Authenticator–compatible 2FA with QR code generation and validation.</Description>
+    <PackageTags>totp;2fa;aspnet;authenticator;security;qrcode;identity</PackageTags>
     <PackageProjectUrl>https://www.nuget.org/packages/Asp.TotpKit</PackageProjectUrl>
     <RepositoryUrl>https://github.com/01YunusKaratas/Asp.TotpKit</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>totp-image.png</PackageIcon>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <PackageOutputPath>bin\Release</PackageOutputPath>
-
+    <PackageReleaseNotes>Added .NET 8 and .NET 9 compatibility with improved QR code generation performance.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
@@ -33,11 +31,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="README.md" Pack="true" PackagePath="" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Docs\" />
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="totp-image.png" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
