@@ -15,11 +15,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyDescriptionAttribute(("Simple, secure, plug-and-play Time-based One-Time Password (TOTP) authentication " +
     "library for ASP.NET Core. Provides Google Authenticator–compatible 2FA with QR c" +
     "ode generation and validation."))]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.3.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.3+daec8625971322627dec60f7374916ad49175787")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.1.0+f4de3c215df83271bd3d7584550bc9cfb82a7e02")]
 [assembly: System.Reflection.AssemblyProductAttribute("Asp.TotpKit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Asp.TotpKit")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.3.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.1.0.0")]
 [assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/01YunusKaratas/Asp.TotpKit")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
